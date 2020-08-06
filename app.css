@@ -1,0 +1,33 @@
+/* Body */
+body{
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+/* SVG Container */
+.container {
+  height: 100vh;
+  width: 100vw;
+}
+/* Main SVG */
+.container svg {
+  height: 100%;
+  width: 100%;
+}
+/* Wall */
+.wall {
+  position: fixed;
+  left: 0;
+  height: 100vh;
+  width: 51vw;
+  background: #d8bfaa;
+}
+/* Ground */
+.ground {
+  position: fixed;
+  width: 102vw;
+  height: 13.5vh;
+  background-color: #4c230a;
+  bottom: 0;
+}
+
